@@ -1,7 +1,0 @@
-torch
-transformers
-gradio
-Pillow
-gTTS
-easyocr
-numpy
