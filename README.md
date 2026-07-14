@@ -11,7 +11,7 @@ The system evaluates food healthiness, extracts label text, compares products, a
 Smart Food Product VQA is a deep learning–based application that combines:
 
 - 🧠 Vision-Language Models (BLIP)
-- 🔎 Optical Character Recognition (EasyOCR)
+- 🔎 Optical Character Recognition 
 - 📊 Rule-based Health Scoring
 - 🗣 Text-to-Speech Output
 - 🌐 Gradio Web Interface
@@ -37,7 +37,7 @@ Users can upload one or two food product images and receive:
 Uses BLIP Image Captioning to generate a natural language description of the uploaded food product.
 
 ## 2️⃣ OCR Label Extraction
-Extracts visible text (ingredients, nutrition labels, brand info) from product packaging using EasyOCR.
+Extracts visible text (ingredients, nutrition labels, brand info) from product packaging using tesseract OCR.
 
 ## 3️⃣ Health Analysis Engine
 A rule-based scoring system analyzes extracted ingredients and classifies products as:
